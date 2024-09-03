@@ -77,7 +77,7 @@ package com.example.notsapp
                 OutlinedButton(
                     onClick = {
                     viewModel.deleteNote(Note(id,noteDetails,noteTitle))
-                        navController.popBackStack() // Go back to the previous screen
+                        navController.popBackStack()
                     },
                     modifier = modifier
                         .weight(1f)

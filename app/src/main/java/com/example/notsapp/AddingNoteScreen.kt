@@ -62,7 +62,7 @@ fun AddingNoteScreen(
             onClick = {
             viewModel.upseretNote(Note(noteDetails = details , noteTitle = title))
 
-                Toast.makeText(context, "Saved Successfully ! ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Saved", Toast.LENGTH_SHORT).show()
                 details="" // Clear the text field after saving
                 title=""
             },

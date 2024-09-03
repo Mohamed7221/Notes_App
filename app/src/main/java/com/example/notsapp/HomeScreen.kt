@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.Card
@@ -106,5 +105,5 @@ fun NoteListItem(note: Note, modifier: Modifier = Modifier, onNavigate: () -> Un
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 private fun HomeScreenPreview() {
-    NoteListItem(note = Note(5, "Hello this is atest note", "This is a test note")){}
+    NoteListItem(note = Note(5, "Hello this is test note", "This is a test note")){}
 }
